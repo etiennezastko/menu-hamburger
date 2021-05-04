@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  background-color: orange;
+  border-radius: 2em;
+  justify-content: space-between;
+  margin-top: center;
+  height: 80px;
+}
+.item_1 {
+  margin-left: 5rem;
+}
+
+.item_3 {
+  margin-right: 2rem;
+}
+.button {
+  height: 5rem;
+  display: none;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .button {
+    display: block;
+  }
+  a {
+    display: none;
+  }
+}
